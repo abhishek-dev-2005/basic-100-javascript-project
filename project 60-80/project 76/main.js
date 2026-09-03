@@ -8,4 +8,4 @@ while (temp > 0) {
   power++;
   temp = Math.floor(temp / 10);
 }
-console.log(decimal);
+console.log(`Binary: ${binaryInput} -> Decimal: ${decimal}`);
