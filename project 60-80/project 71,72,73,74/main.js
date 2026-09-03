@@ -18,3 +18,8 @@ console.log(`GCD/HCF of ${a} and ${b} is: ${gcd}`);
 // Direct Formula for LCM: (a * b) / GCD
 let lcm = (a * b) / gcd;
 console.log(`LCM of ${a} and ${b} is: ${lcm}`);
+if (gcd === 1) {
+  console.log(`${a} and ${b} are RELATIVELY PRIME (Coprime)!`);
+} else {
+  console.log(`${a} and ${b} are NOT Relatively Prime (GCD = ${gcd}).`);
+}
