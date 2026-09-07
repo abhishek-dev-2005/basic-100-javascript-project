@@ -1,0 +1,30 @@
+/* Container ko styled box aur alignment dena */
+.container {
+  /* Box ko pattern ke hisaab se auto-expand karne ke liye */
+  width: fit-content;
+  min-width: 200px;
+  max-width: 90vw;
+
+  margin: 30px auto;
+  padding: 20px;
+
+  /* Centering & Font Alignment */
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  white-space: nowrap; /* Spaces ko collapsing se rokne ke liye */
+
+  border: 2px dashed #007bff;
+  background-color: #f8f9fa;
+  overflow-x: auto; /* Agar screen se bada ho jaye toh scrollbar aaye */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/* Hover Effect */
+.container:hover {
+  background-color: #e9ecef;
+  border-color: #0056b3;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
