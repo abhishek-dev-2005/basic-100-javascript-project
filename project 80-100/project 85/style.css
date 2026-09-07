@@ -1,0 +1,23 @@
+/* Container ko styled box aur alignment dena */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  text-align: left; /* Center hatakar left karein */
+  font-family: monospace; /* Alignment straight rakhne ke liye */
+
+  /* Baaki styling same */
+  width: fit-content;
+  padding: 20px;
+  border: 2px dashed #007bff;
+  margin: 30px auto;
+}
+/* Hover Effect */
+.container:hover {
+  background-color: #e9ecef;
+  border-color: #0056b3;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
